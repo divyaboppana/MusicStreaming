@@ -1,0 +1,26 @@
+2026-07-23 12:52:24.007 +05:30 [INF] User profile is available. Using 'C:\Users\TP-User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-23 12:52:24.697 +05:30 [WRN] The WebRootPath was not found: E:\MusicStreaming\MusicStreaming\wwwroot. Static files may be unavailable.
+2026-07-23 12:52:25.116 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2026-07-23 12:52:25.116 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-23 12:52:25.370 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 270.8053ms
+2026-07-23 12:52:25.572 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2026-07-23 12:52:25.683 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/favicon-32x32.png - null null
+2026-07-23 12:52:25.741 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 168.1107ms
+2026-07-23 12:52:25.873 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/favicon-32x32.png - 304 null null 189.3111ms
+2026-07-23 12:52:29.052 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 304 null null 3956.9405ms
+2026-07-23 12:52:29.074 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/swagger-ui.css - null null
+2026-07-23 12:52:29.074 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.css - null null
+2026-07-23 12:52:29.085 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/swagger-ui-bundle.js - null null
+2026-07-23 12:52:29.204 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.js - null null
+2026-07-23 12:52:29.205 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.css - 304 null null 131.1304ms
+2026-07-23 12:52:29.205 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/swagger-ui-standalone-preset.js - null null
+2026-07-23 12:52:29.206 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/swagger-ui.css - 304 null null 131.6644ms
+2026-07-23 12:52:29.206 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.js - 304 null null 18.0053ms
+2026-07-23 12:52:29.206 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2026-07-23 12:52:29.237 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-23 12:52:29.238 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 30.8681ms
+2026-07-23 12:52:29.239 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/swagger-ui-standalone-preset.js - 304 null null 33.5258ms
+2026-07-23 12:52:29.264 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/swagger-ui-bundle.js - 304 null null 189.4382ms
+2026-07-23 12:52:30.339 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1133.0015ms
+2026-07-23 12:52:30.421 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2026-07-23 12:52:30.435 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.0029ms

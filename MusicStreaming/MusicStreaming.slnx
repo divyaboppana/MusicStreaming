@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Libraries/">
+    <Project Path="E:/MusicStreaming/MusicStreaming.Core/MusicStreaming.Core.csproj" />
+    <Project Path="E:/MusicStreaming/MusicStreaming.Data/MusicStreaming.Data.csproj" />
+    <Project Path="E:/MusicStreaming/MusicStreaming.Utilities/MusicStreaming.Utilities.csproj" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="E:/MusicStreaming/MusicStreaming/MusicStreaming.csproj" />
+  </Folder>
+</Solution>

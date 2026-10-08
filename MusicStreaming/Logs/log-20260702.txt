@@ -1,0 +1,230 @@
+2026-07-02 00:04:40.266 +05:30 [INF] User profile is available. Using 'C:\Users\TP-User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-02 00:04:40.611 +05:30 [WRN] The WebRootPath was not found: E:\MusicStreaming\MusicStreaming\wwwroot. Static files may be unavailable.
+2026-07-02 00:04:40.896 +05:30 [INF] Now listening on: https://localhost:7062
+2026-07-02 00:04:40.898 +05:30 [INF] Now listening on: http://localhost:5057
+2026-07-02 00:04:41.256 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 00:04:41.257 +05:30 [INF] Hosting environment: Development
+2026-07-02 00:04:41.258 +05:30 [INF] Content root path: E:\MusicStreaming\MusicStreaming
+2026-07-02 00:04:47.446 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/index.html - null null
+2026-07-02 00:04:47.447 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger - null null
+2026-07-02 00:04:47.939 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger - 301 null null 511.6713ms
+2026-07-02 00:04:47.945 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/index.html - null null
+2026-07-02 00:04:48.535 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/index.html - 200 null text/html;charset=utf-8 1111.3338ms
+2026-07-02 00:04:48.535 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/index.html - 200 null text/html;charset=utf-8 590.1455ms
+2026-07-02 00:04:48.551 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/index.css - null null
+2026-07-02 00:04:48.552 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-02 00:04:48.551 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/swagger-ui-standalone-preset.js - null null
+2026-07-02 00:04:48.552 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/index.js - null null
+2026-07-02 00:04:48.551 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/swagger-ui-bundle.js - null null
+2026-07-02 00:04:48.551 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/swagger-ui.css - null null
+2026-07-02 00:04:48.628 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/_vs/browserLink - null null
+2026-07-02 00:04:48.630 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 78.3882ms
+2026-07-02 00:04:48.630 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/index.css - 200 152 text/css 79.4741ms
+2026-07-02 00:04:48.635 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/index.js - 200 null application/javascript;charset=utf-8 83.1003ms
+2026-07-02 00:04:48.653 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/swagger-ui-standalone-preset.js - 200 77731 text/javascript 101.8417ms
+2026-07-02 00:04:48.653 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/swagger-ui.css - 200 26499 text/css 102.0245ms
+2026-07-02 00:04:48.674 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/swagger-ui-bundle.js - 200 421507 text/javascript 123.3154ms
+2026-07-02 00:04:48.697 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-02 00:04:48.701 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 4.3831ms
+2026-07-02 00:04:48.749 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/_vs/browserLink - 200 null text/javascript; charset=UTF-8 120.9918ms
+2026-07-02 00:04:49.051 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/v1/swagger.json - null null
+2026-07-02 00:04:49.079 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - MusicStreaming.API.Controllers.PlaylistController.Create (MusicStreaming). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-02 00:04:49.147 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 96.5497ms
+2026-07-02 00:04:49.150 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/v1/swagger.json - null null
+2026-07-02 00:04:49.164 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - MusicStreaming.API.Controllers.PlaylistController.Create (MusicStreaming). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-02 00:04:49.201 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 50.7191ms
+2026-07-02 00:05:19.864 +05:30 [INF] User profile is available. Using 'C:\Users\TP-User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-02 00:05:20.043 +05:30 [WRN] The WebRootPath was not found: E:\MusicStreaming\MusicStreaming\wwwroot. Static files may be unavailable.
+2026-07-02 00:05:20.167 +05:30 [INF] Now listening on: https://localhost:7062
+2026-07-02 00:05:20.169 +05:30 [INF] Now listening on: http://localhost:5057
+2026-07-02 00:05:20.414 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 00:05:20.416 +05:30 [INF] Hosting environment: Development
+2026-07-02 00:05:20.417 +05:30 [INF] Content root path: E:\MusicStreaming\MusicStreaming
+2026-07-02 00:05:21.622 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger - null null
+2026-07-02 00:05:21.846 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-02 00:05:21.872 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 23.7937ms
+2026-07-02 00:05:21.888 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger - 301 null null 281.8832ms
+2026-07-02 00:05:21.893 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/index.html - null null
+2026-07-02 00:05:21.983 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/index.html - 304 null null 90.8266ms
+2026-07-02 00:05:21.996 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/swagger-ui.css - null null
+2026-07-02 00:05:21.996 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-02 00:05:21.996 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/swagger-ui-bundle.js - null null
+2026-07-02 00:05:21.996 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/swagger-ui-standalone-preset.js - null null
+2026-07-02 00:05:22.194 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/_vs/browserLink - null null
+2026-07-02 00:05:21.996 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/index.css - null null
+2026-07-02 00:05:21.997 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/index.js - null null
+2026-07-02 00:05:22.194 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 197.4893ms
+2026-07-02 00:05:22.210 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/index.js - 304 null null 213.1738ms
+2026-07-02 00:05:22.215 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/index.css - 304 null null 219.49ms
+2026-07-02 00:05:22.215 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/swagger-ui-standalone-preset.js - 304 null null 219.2578ms
+2026-07-02 00:05:22.215 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/swagger-ui.css - 304 null null 219.5282ms
+2026-07-02 00:05:22.216 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/swagger-ui-bundle.js - 304 null null 219.949ms
+2026-07-02 00:05:22.269 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.1574ms
+2026-07-02 00:05:22.558 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/v1/swagger.json - null null
+2026-07-02 00:05:22.579 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - MusicStreaming.API.Controllers.PlaylistController.Create (MusicStreaming). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-02 00:05:22.630 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 71.435ms
+2026-07-02 00:05:22.632 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/v1/swagger.json - null null
+2026-07-02 00:05:22.649 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - MusicStreaming.API.Controllers.PlaylistController.Create (MusicStreaming). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-02 00:05:22.678 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 46.5354ms
+2026-07-02 00:12:16.365 +05:30 [INF] User profile is available. Using 'C:\Users\TP-User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-02 00:12:16.517 +05:30 [WRN] The WebRootPath was not found: E:\MusicStreaming\MusicStreaming\wwwroot. Static files may be unavailable.
+2026-07-02 00:12:16.676 +05:30 [INF] Now listening on: https://localhost:7062
+2026-07-02 00:12:16.679 +05:30 [INF] Now listening on: http://localhost:5057
+2026-07-02 00:12:16.765 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 00:12:16.766 +05:30 [INF] Hosting environment: Development
+2026-07-02 00:12:16.767 +05:30 [INF] Content root path: E:\MusicStreaming\MusicStreaming
+2026-07-02 00:12:17.937 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/index.html - null null
+2026-07-02 00:12:18.225 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-02 00:12:18.254 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 27.2112ms
+2026-07-02 00:12:18.360 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/index.html - 304 null null 438.4205ms
+2026-07-02 00:12:18.376 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/swagger-ui.css - null null
+2026-07-02 00:12:18.376 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/index.css - null null
+2026-07-02 00:12:18.377 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/swagger-ui-standalone-preset.js - null null
+2026-07-02 00:12:18.377 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/swagger-ui-bundle.js - null null
+2026-07-02 00:12:18.377 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-02 00:12:18.379 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/index.js - null null
+2026-07-02 00:12:18.404 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/v1/swagger.json - null null
+2026-07-02 00:12:18.430 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/_vs/browserLink - null null
+2026-07-02 00:12:18.441 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 64.6302ms
+2026-07-02 00:12:18.444 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/index.js - 304 null null 66.6627ms
+2026-07-02 00:12:18.455 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/swagger-ui-standalone-preset.js - 304 null null 78.5451ms
+2026-07-02 00:12:18.455 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/index.css - 304 null null 78.8819ms
+2026-07-02 00:12:18.455 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/swagger-ui.css - 304 null null 78.9715ms
+2026-07-02 00:12:18.456 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/swagger-ui-bundle.js - 304 null null 79.777ms
+2026-07-02 00:12:18.481 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - MusicStreaming.API.Controllers.PlaylistController.Create (MusicStreaming). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-02 00:12:18.551 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 147.4261ms
+2026-07-02 00:12:18.584 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/_vs/browserLink - 200 null text/javascript; charset=UTF-8 153.5361ms
+2026-07-02 00:12:18.645 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/v1/swagger.json - null null
+2026-07-02 00:12:18.655 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - MusicStreaming.API.Controllers.PlaylistController.Create (MusicStreaming). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-02 00:12:18.682 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 36.6752ms
+2026-07-02 00:18:56.224 +05:30 [INF] User profile is available. Using 'C:\Users\TP-User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-02 00:18:56.371 +05:30 [WRN] The WebRootPath was not found: E:\MusicStreaming\MusicStreaming\wwwroot. Static files may be unavailable.
+2026-07-02 00:18:56.507 +05:30 [INF] Now listening on: https://localhost:7062
+2026-07-02 00:18:56.509 +05:30 [INF] Now listening on: http://localhost:5057
+2026-07-02 00:18:56.697 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 00:18:56.698 +05:30 [INF] Hosting environment: Development
+2026-07-02 00:18:56.699 +05:30 [INF] Content root path: E:\MusicStreaming\MusicStreaming
+2026-07-02 00:18:58.561 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/index.html - null null
+2026-07-02 00:18:58.902 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-02 00:18:58.935 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 30.7197ms
+2026-07-02 00:18:59.071 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/index.html - 304 null null 524.5983ms
+2026-07-02 00:18:59.077 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/v1/swagger.json - null null
+2026-07-02 00:18:59.085 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/swagger-ui.css - null null
+2026-07-02 00:18:59.085 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/index.css - null null
+2026-07-02 00:18:59.085 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/swagger-ui-standalone-preset.js - null null
+2026-07-02 00:18:59.085 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/swagger-ui-bundle.js - null null
+2026-07-02 00:18:59.091 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/index.js - null null
+2026-07-02 00:18:59.091 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-02 00:18:59.128 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/_vs/browserLink - null null
+2026-07-02 00:18:59.133 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - MusicStreaming.API.Controllers.PlaylistController.Create (MusicStreaming). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-02 00:18:59.136 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/index.js - 304 null null 44.8334ms
+2026-07-02 00:18:59.138 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/index.css - 304 null null 53.5404ms
+2026-07-02 00:18:59.138 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/swagger-ui-standalone-preset.js - 304 null null 53.3591ms
+2026-07-02 00:18:59.138 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/swagger-ui.css - 304 null null 53.7907ms
+2026-07-02 00:18:59.151 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/swagger-ui-bundle.js - 304 null null 66.0007ms
+2026-07-02 00:18:59.139 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 48.0841ms
+2026-07-02 00:18:59.185 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 108.8267ms
+2026-07-02 00:18:59.252 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/_vs/browserLink - 200 null text/javascript; charset=UTF-8 124.4658ms
+2026-07-02 00:18:59.299 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/v1/swagger.json - null null
+2026-07-02 00:18:59.309 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - MusicStreaming.API.Controllers.PlaylistController.Create (MusicStreaming). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-02 00:18:59.333 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 34.5205ms
+2026-07-02 00:33:39.313 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/index.html - null null
+2026-07-02 00:33:39.381 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/index.html - 304 null null 69.4632ms
+2026-07-02 00:33:40.314 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/swagger-ui.css - null null
+2026-07-02 00:33:40.316 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/index.css - null null
+2026-07-02 00:33:40.330 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/swagger-ui.css - 304 null null 15.89ms
+2026-07-02 00:33:40.346 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/index.css - 304 null null 30.6083ms
+2026-07-02 00:33:40.325 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/swagger-ui-standalone-preset.js - null null
+2026-07-02 00:33:40.325 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/swagger-ui-bundle.js - null null
+2026-07-02 00:33:40.325 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/index.js - null null
+2026-07-02 00:33:40.344 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-02 00:33:40.353 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/_vs/browserLink - null null
+2026-07-02 00:33:40.366 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/swagger-ui-standalone-preset.js - 304 null null 41.1878ms
+2026-07-02 00:33:40.370 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/swagger-ui-bundle.js - 304 null null 44.9297ms
+2026-07-02 00:33:40.374 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/index.js - 304 null null 49.3172ms
+2026-07-02 00:33:40.379 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 34.8339ms
+2026-07-02 00:33:40.407 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.2462ms
+2026-07-02 00:33:40.544 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7062/swagger/v1/swagger.json - null null
+2026-07-02 00:33:40.557 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - MusicStreaming.API.Controllers.PlaylistController.Create (MusicStreaming). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.IteratorSelectIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-02 00:33:40.630 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7062/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 86.0975ms
